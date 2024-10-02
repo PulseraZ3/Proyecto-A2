@@ -1,8 +1,9 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
 
+import { createRoot } from 'react-dom/client'
+import './estilos/index.css'
+import Header from '../src/componentes/header/Header.jsx'
 createRoot(document.getElementById('root')).render(
-    <App />
+    <div className="contendor">
+        <Header/>
+    </div>
 )
