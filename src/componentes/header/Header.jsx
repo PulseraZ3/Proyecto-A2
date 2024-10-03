@@ -2,19 +2,17 @@ import '../../estilos/header.css'
 
 function Header() {
     return (
-        <div className='contendor-header'>
-            <div className='items-contendor'>
-                <div className="logo-contendor">
-                    <p>Empresa <br/>Amarilla</p>
-                </div>
-                <div className='nav'>
-                    <a href="">catalogo de motos</a>
-                    <a href="">accesorios</a>
-                    <a href="">financiamiento</a>
-                    <a href="">ventas corporativas</a>
-                </div>
+        <div className='items-contendor'>
+            <div className='nav'>
+                <p>LOGO<br/>AQUI</p>
+                <a href="">catálogo de motos</a>
+                <a href="">accesorios</a>
+                <a href="">financiamiento</a>
+                <a href="">ventas corporativas</a>
             </div>
-            <input type="button" value="REGISTRATE" />
+            <div className='input-contenedor'>
+                <input type="button" value="INICIAR SESIÓN" />     
+            </div>
         </div>
     );
 }

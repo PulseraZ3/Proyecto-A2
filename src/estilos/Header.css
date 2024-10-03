@@ -1,25 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-.contendor-header{
-    height:90vh;
-    width: 100%;
-    background: 
-    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-    url('../public/157962-temporada_motogp_2019-equipo_suzuki_ecstar-suzuki_gsx_rr-neumatico-rueda-3840x2160.jpg') no-repeat center/cover;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-}
-.logo-contendor p{
-    margin: 0;
+
+.items-contendor p{
+    margin: 0px 25px 0px 0px;
     color: white;
     font-weight: bold;
     font-size: 1.5em;
     font-family: 'Roboto',sans-serif;
 }
 .items-contendor{
-    padding: 25px 10%;
+    padding: 50px 5%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .nav{
     display: flex;
@@ -29,10 +21,31 @@
     text-transform: uppercase;
 }
 .nav a{
-    margin: 0px 10px;
+    margin: 0px 12px;
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-family: 'Roboto',sans-serif;
     font-size: 0.9em;
+    transition: all 0.3s;
+}
+.nav a:hover{
+    color: #feca01;
+}
+.input-contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.input-contenedor input{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto';
+    border: none;
+    font-size: 0.9em;
+    transition: all 0.3s;
+}
+.input-contenedor input:hover{
+    color: #feca01;
 }
