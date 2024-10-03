@@ -1,5 +1,4 @@
 import '../../estilos/header.css'
-
 function Header() {
     return (
         <div className='items-contendor'>

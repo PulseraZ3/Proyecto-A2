@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
 .items-contendor p{
     margin: 0px 25px 0px 0px;
     color: white;
@@ -48,4 +48,61 @@
 }
 .input-contenedor input:hover{
     color: #feca01;
+}
+.title-content{
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    font-weight: 1000;
+    font-family: 'Roboto',sans-serif;
+}
+.p-content{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+}
+.box-contenedor{
+    width: 75%;
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.cuestionario1-contendor{
+    text-align: center;
+}
+.cuestionario2-contendor{
+    text-align: center;
+}
+.cuestionario2-contendor h3{
+    text-align: justify;
+    color: white;
+    font-weight: 300;
+    font-size: 1.3em;
+    font-family: 'Roboto';
+}
+.cuestionario1-contendor h3{
+    text-align: justify;
+    color: white;
+    font-weight: 300;
+    font-size: 1.3em;
+    font-family: 'Roboto';
+}
+.cuestionario1-contendor span{
+    color: yellow;
+    font-weight: bold;
+}
+.cuestionario2-contendor::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 2px;
+    height: 100px;
+    background-color: red;
 }
