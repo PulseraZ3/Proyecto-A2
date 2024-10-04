@@ -49,6 +49,9 @@
 .input-contenedor input:hover{
     color: #feca01;
 }
+.content-contenedor{
+    margin: 20px 0px;
+}
 .title-content{
     margin: 0;
     text-transform: uppercase;
@@ -67,11 +70,11 @@
     font-family: 'Roboto',sans-serif;
 }
 .box-contenedor{
-    width: 75%;
+    width: 70%;
     display: grid;
     margin: 20px auto;
     grid-template-columns: repeat(2,1fr);
-    gap: 50px;
+    gap: 100px;
 }
 .cuestionario1-contendor{
     text-align: center;
@@ -80,29 +83,91 @@
     text-align: center;
 }
 .cuestionario2-contendor h3{
-    text-align: justify;
+    text-align: center;
     color: white;
-    font-weight: 300;
-    font-size: 1.3em;
+    font-weight: 500;
+    font-size: 1.2em;
     font-family: 'Roboto';
+    margin-bottom: 0;
 }
 .cuestionario1-contendor h3{
-    text-align: justify;
+    text-align: center;
     color: white;
-    font-weight: 300;
-    font-size: 1.3em;
+    font-weight: 500;
+    font-size: 1.2em;
     font-family: 'Roboto';
 }
-.cuestionario1-contendor span{
+.cuestionario1-contendor h3 span, .cuestionario2-contendor h3 span {
     color: yellow;
     font-weight: bold;
 }
-.cuestionario2-contendor::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -10px;
-    width: 2px;
-    height: 100px;
-    background-color: red;
+.search{
+    width:  80%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #e4e4e4;
+    border: 2px solid #f6f6f6;
+    transform: all 0.3s;
+}
+.search:focus-within{
+    border:2px solid #feca01;
+}
+.input-buscador{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: gray;
+    font-size: .9em;
+}
+.cuestionario2-contendor hr{
+    margin-top: 65px;
+}
+.button-catalogo{
+    width: 89%;
+    margin: auto;
+}
+.button-catalogo a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    text-decoration: none;
+    margin: 5px 0px;
+    transition: all 0.3s;
+}
+.button-catalogo p{
+    margin: 15px 10px;
+}
+.button-catalogo span{
+    margin: 0px 10px;
+}
+.title-catalogo{
+    margin-top: 50px;
+    font-size: 1.3em;
+}
+.button-catalogo{
+    margin-top: 20px;
+    border: 1px solid #f6f6f6;
+    font-size: 0.94em;
+    transition: all 0.3s;
+}
+.button-catalogo:hover{
+    background-color: white;
+}
+.button-catalogo a:hover{
+    color: black;
+}
+.input-range-precio{
+    display: flex;
+    flex-direction: column;
+}
+.input-range-c{
+    display: flex;
+    flex-direction: column;
 }

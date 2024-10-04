@@ -6,10 +6,36 @@ function ContentHeader(){
             <p className='p-content'>Conócela, cómprala o finánciala aquí.</p>
             <div className='box-contenedor'>
                 <div className='cuestionario1-contendor'>
-                    <h3>Encuentra tu moto ideal, completa los siguente filtros <br/><span>¡Disfruta tu Moto!</span></h3>
+                    <h3>Encuentra tu moto ideal, completa los siguente filtros</h3>
+                    <form>
+                        <div className='input-range-precio'>
+                            <h3>Precio</h3>
+                            <input type='range'/>
+                        </div>
+                        <div className='input-range-c'>
+                            <h3>Cilindrada</h3>
+                            <input type='range'/>
+                        </div>
+                        <input type='submit'/>
+                    </form>
                 </div>
                 <div className='cuestionario2-contendor'>
-                    <h3>¿Sabes el nombre de la moto? Buscala Aquí</h3>
+                    <h3>¿Sabes que moto buscas? <span>Escribelo Acá</span></h3>
+                    <form>
+                        <div className='search'>
+                            <span className="material-symbols-outlined">search</span>
+                            <input type='search' className='input-buscador' placeholder='Escribe modelo, marca o tipo de moto'/>
+                        </div>
+                    </form>
+                    <hr/>
+                    <h3 className='title-catalogo'>Mira todos los modelos</h3>
+                    <div className='button-catalogo'>
+                        <a href='#'>                       
+                            <p>ver catálogo completo</p>
+                            <span className="material-symbols-outlined">expand_circle_right</span>
+                        </a>
+                    </div>
+                    
                 </div>
             </div>
         </div>
