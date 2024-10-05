@@ -7,16 +7,26 @@ function ContentHeader(){
             <div className='box-contenedor'>
                 <div className='cuestionario1-contendor'>
                     <h3>Encuentra tu moto ideal, completa los siguente filtros</h3>
-                    <form>
-                        <div className='input-range-precio'>
-                            <h3>Precio</h3>
-                            <input type='range'/>
+                    <form className='form-range'>
+                        <div className='form-range-contenedor'>
+                            <div className='input-range-precio'>
+                                <h3>Precio</h3>
+                                <input type='range'/>
+                            </div>
+                            <div className='input-range-c'>
+                                <h3>Cilindrada</h3>
+                                <input type='range'/>
+                            </div>
                         </div>
-                        <div className='input-range-c'>
-                            <h3>Cilindrada</h3>
-                            <input type='range'/>
+                        <div className='button-buscar'>
+                            <a href='#'>                       
+                                <p>Sin referencia</p>
+                                <span className="material-symbols-outlined">arrow_drop_down</span>                            
+                            </a>
                         </div>
-                        <input type='submit'/>
+                        <a>                        
+                            <input type='submit' value="buscar moto"/>
+                        </a>
                     </form>
                 </div>
                 <div className='cuestionario2-contendor'>

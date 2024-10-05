@@ -167,7 +167,75 @@
     display: flex;
     flex-direction: column;
 }
+
+.input-range-precio h3{
+    text-align: left;
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.input-range-c h3{
+    text-align: left;
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
 .input-range-c{
     display: flex;
     flex-direction: column;
+}
+.form-range-contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin-bottom: 35px;
+}
+.form-range input[type="submit"]{
+    width: 90%;
+    text-transform: uppercase;
+    background-color: #feca01;
+    color: black;
+    padding: 20px 0px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 1.1em;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+}
+.form-range input[type="submit"]:hover{
+    background-color: #bb9600;
+}
+.button-buscar{
+    margin-top: 20px;
+    border: 1px solid #f6f6f6;
+    font-size: 0.94em;
+    transition: all 0.3s;
+}
+.button-buscar:hover{
+    background-color: white;
+}
+.button-buscar a:hover{
+    color: black;
+}
+.button-buscar a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    text-decoration: none;
+    margin: 5px 0px;
+    transition: all 0.3s;
+}
+.button-buscar{
+    width: 89%;
+    margin: auto;
 }
