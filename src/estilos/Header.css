@@ -70,14 +70,15 @@
     font-family: 'Roboto',sans-serif;
 }
 .box-contenedor{
-    width: 70%;
+    width: 60%;
     display: grid;
-    margin: 20px auto;
+    margin: 80px auto;
     grid-template-columns: repeat(2,1fr);
     gap: 100px;
 }
 .cuestionario1-contendor{
     text-align: center;
+
 }
 .cuestionario2-contendor{
     text-align: center;
@@ -238,4 +239,15 @@
 .button-buscar{
     width: 89%;
     margin: auto;
+    padding-left: 5px;
+}
+.button-moto{
+    margin: 2.188rem 0px;
+}
+.text-moto{
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin: 10px 0px;
 }
