@@ -49,9 +49,7 @@
 .input-contenedor input:hover{
     color: #feca01;
 }
-.content-contenedor{
-    margin: 20px 0px;
-}
+
 .title-content{
     margin: 0;
     text-transform: uppercase;
@@ -71,10 +69,13 @@
 }
 .box-contenedor{
     width: 60%;
+    height: auto;
     display: grid;
-    margin: 80px auto;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-columns: repeat(2,1fr);
-    gap: 100px;
+    gap: 50px;
 }
 .cuestionario1-contendor{
     text-align: center;
@@ -242,12 +243,5 @@
     padding-left: 5px;
 }
 .button-moto{
-    margin: 2.188rem 0px;
-}
-.text-moto{
-    color: white;
-    font-size: 1.1em;
-    font-family: 'Roboto';
-    font-weight: bold;
-    margin: 10px 0px;
+    margin: 16% 0px;
 }

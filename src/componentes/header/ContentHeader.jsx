@@ -24,9 +24,6 @@ function ContentHeader(){
                                 <span className="material-symbols-outlined">arrow_drop_down</span>                            
                             </a>
                         </div>
-                        <p className='text-moto'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci odio dignissimos eum explicabo unde 
-                        </p>
                         <div className='button-moto'>
                             <a>                        
                                 <input type='submit' value="buscar moto"/>
