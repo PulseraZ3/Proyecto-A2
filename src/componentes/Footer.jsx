@@ -1,36 +1,69 @@
 import '../estilos/Footer.css'
-const data={
-    claves:[
+const data = {
+    claves: [
         {
-            clave:"Soluciones",
-            content:["problema 1","problema 2","problema 3", "problema 4"]
+            clave: "Soluciones",
+            content: [
+                { text: "problema 1", url: "#" },
+                { text: "problema 2", url: "#" },
+                { text: "problema 3", url: "#" },
+                { text: "problema 4", url: "#" }
+            ]
         },
         {
-            clave:"Soporte",
-            content:["problema 1","problema 2","problema 3", "problema 4"]
+            clave: "Soporte",
+            content: [
+                { text: "problema 1", url: "" },
+                { text: "problema 2", url: "#" },
+                { text: "problema 3", url: "#" },
+                { text: "problema 4", url: "#" }
+            ]
         },
         {
-            clave:"Compañia",
-            content:["problema 1","problema 2","problema 3", "problema 4"]
-        },        
+            clave: "Compañia",
+            content: [
+                { text: "problema 1", url: "#" },
+                { text: "problema 2", url: "#" },
+                { text: "problema 3", url: "#" },
+                { text: "problema 4", url: "#" }
+            ]
+        },
         {
-            clave:"Legal",
-            content:["problema 1","problema 2","problema 3"]
-        } 
+            clave: "Legal",
+            content: [
+                { text: "problema 1", url: "#" },
+                { text: "problema 2", url: "#" },
+                { text: "problema 3", url: "#" }
+            ]
+        }
     ]
 };
-const generarContenido = ({ claves }) =>{
-    return(
-        <div>
-            {claves.map}
+// funciopn flecha, que retorno un div donde se copia el json claves.map que sirve para copiar y este creara un una funcion flecha la cual nos dara un h2 con el nombre del content 
+//lueog otora funcion flecha la cual retornara un a donde tendra el link que es el parametro con . url el cual sera el link del a, dentro del a esta el text o sea problema 1 y eso, se creara los necearios
+
+const RenderContent = ({ claves }) => {
+    return (
+        <div className='footer-box-contenedor'>
+            {claves.map((item, index) => (
+                <div key={index} className='footer-content'>
+                    <h2>{item.clave}</h2>
+                    {item.content.map((link, idx) => (
+                        <a key={idx} href={link.url}>
+                            {link.text}
+                        </a>
+                    ))}
+                </div>
+            ))}
         </div>
     );
 };
+
+
 export function Footer() {
     return (
         <div className="footer-contenedor">
             <div className='margin-footer'>
-                <div>
+                <div className='footer-primero'>
                     <h2>Empresa Amarilla</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quidem dolores.
@@ -42,7 +75,7 @@ export function Footer() {
                         <a href="#"><img src="../../public/whatsapp.png" alt="" /></a>
                     </div>
                 </div>
-                
+                <RenderContent claves={data.claves}/>
             </div>
             <hr/>
             <div className='copy-footer'> 
