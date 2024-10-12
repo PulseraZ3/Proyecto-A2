@@ -4,36 +4,31 @@ const data = {
         {
             clave: "Soluciones",
             content: [
-                { text: "problema 1", url: "#" },
-                { text: "problema 2", url: "#" },
-                { text: "problema 3", url: "#" },
-                { text: "problema 4", url: "#" }
+                { text: "Comercio", url: "#" },
+                { text: "Analiticas", url: "#" }
             ]
         },
         {
             clave: "Soporte",
             content: [
-                { text: "problema 1", url: "" },
-                { text: "problema 2", url: "#" },
-                { text: "problema 3", url: "#" },
-                { text: "problema 4", url: "#" }
+                { text: "Precios", url: "" },
+                { text: "Documentación", url: "#" },
+                { text: "Guides", url: "#" }
             ]
         },
         {
             clave: "Compañia",
             content: [
-                { text: "problema 1", url: "#" },
-                { text: "problema 2", url: "#" },
-                { text: "problema 3", url: "#" },
-                { text: "problema 4", url: "#" }
+                { text: "Nosotros", url: "#" },
+                { text: "Blog", url: "#" },
+                { text: "Trabajos", url: "#" }
             ]
         },
         {
             clave: "Legal",
             content: [
-                { text: "problema 1", url: "#" },
-                { text: "problema 2", url: "#" },
-                { text: "problema 3", url: "#" }
+                { text: "Privacidad", url: "#" },
+                { text: "Terminos", url: "#" }
             ]
         }
     ]
@@ -80,7 +75,7 @@ export function Footer() {
             <hr/>
             <div className='copy-footer'> 
                 <div>
-                    <p>Copyright &#169; 2024 <strong>Website</strong>. All rights reserved.</p>
+                    <p>Copyright &#169; 2024 <strong>LeoDev</strong>. All rights reserved.</p>
                 </div>
                 <div>
                     <a href="">Terminos y Condiciones</a>
