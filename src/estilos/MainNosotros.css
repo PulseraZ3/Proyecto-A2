@@ -1,0 +1,57 @@
+/* Estilos generales */
+.nosotros-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+    .comercioContendor{
+        padding-bottom: 50px;
+        border-bottom: 1px solid black;
+    }
+  .nosotros-titulo {
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffc107;
+    margin-bottom: 10px;
+  }
+  
+  .nosotros-subtitulo {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffc107;
+    padding-bottom: 5px;
+  }
+  
+  .nosotros-lista {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .nosotros-lista li {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    background: url('https://cdn-icons-png.flaticon.com/512/1067/1067564.png') no-repeat left center;
+    background-size: 20px;
+    color: #333;
+  }
+  
+  .nosotros-contacto {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .nosotros-contacto li {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  strong {
+    color: #333;
+  }
+  

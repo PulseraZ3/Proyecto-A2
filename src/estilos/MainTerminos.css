@@ -1,0 +1,51 @@
+/* Estilos generales para la sección de Términos y Condiciones */
+.terminos-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  .terminos-titulo {
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffc107;
+    margin-bottom: 20px;
+  }
+  
+  .terminos-subtitulo {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffc107;
+    padding-bottom: 5px;
+  }
+  
+  .terminos-contacto {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  
+  .terminos-contacto li {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  a {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  strong {
+    color: #333;
+  }
+  

@@ -1,0 +1,12 @@
+[
+  {"Nomprod":"70 PROX - 2021","Marca": "RTM","Precio": "S/3,500.00","Codigo": "0001","img": "../../public/moto1.png"},
+  {"Nomprod":"70 PROX - 2020","Marca": "RTM","Precio": "S/3,499.00","Codigo": "0002","img": "../../public/moto2.png"},
+  {"Nomprod":"110 URBANA 2023","Marca": "RTM","Precio": "S/3,299.00","Codigo": "0003","img": "../../public/moto3.png"},
+  {"Nomprod":"150-7DH 2023","Marca": "RTM","Precio": "S/4,999.00","Codigo": "0004","img": "../../public/moto4.png"},
+  {"Nomprod":"150G1 2022","Marca": "RTM","Precio": "S/2,899.00","Codigo": "0005","img": "../../public/moto5.png"},
+  {"Nomprod":"150G1 2020","Marca": "RTM","Precio": "S/2,899.00","Codigo": "0006","img": "../../public/moto6.png"},
+  {"Nomprod":"Nexus 110v 2023","Marca": "Nexus","Precio": "S/3,500.00","Codigo": "0007","img": "../../public/moto7.png"},
+  {"Nomprod":"150G2 - 2022","Marca": "RTM","Precio": "S/3,500.00","Codigo": "0008","img": "../../public/moto8.png"},
+  {"Nomprod":"ECO FINITI 150","Marca": "Ssenda","Precio": "S/3,500.00","Codigo": "0009","img": "../../public/moto9.png"}
+
+]

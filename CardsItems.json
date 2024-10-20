@@ -1,0 +1,9 @@
+[
+  {"img":"../../public/depor.webp","title":"Deportiva"},
+  {"img":"../../public/urban.webp","title":"Urbana"},
+  {"img":"../../public/conf.jpg","title":"Confort"},
+  {"img":"../../public/scoter.webp","title":"Scooter"},
+  {"img":"../../public/trabajo.png","title":"Trabajo"},
+  {"img":"../../public/chopper.webp","title":"Chopper"},
+  {"img":"../../public/viajeras.jpg","title":"Viajeras"}
+]

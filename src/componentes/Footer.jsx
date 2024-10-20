@@ -1,25 +1,26 @@
 import '../estilos/Footer.css'
+import React from 'react';
 const data = {
     claves: [
         {
             clave: "Soluciones",
             content: [
-                { text: "Comercio", url: "#" },
+                { text: "Comercio", url: "comercio.html" },
                 { text: "Analiticas", url: "#" }
             ]
         },
         {
             clave: "Soporte",
             content: [
-                { text: "Precios", url: "" },
-                { text: "Documentación", url: "#" },
+                { text: "Precios", url: "precios.html" },
+                { text: "Documentación", url: "documentacion.html" },
                 { text: "Guides", url: "#" }
             ]
         },
         {
             clave: "Compañia",
             content: [
-                { text: "Nosotros", url: "#" },
+                { text: "Nosotros", url: "nosotros.html" },
                 { text: "Blog", url: "#" },
                 { text: "Trabajos", url: "#" }
             ]
@@ -27,8 +28,8 @@ const data = {
         {
             clave: "Legal",
             content: [
-                { text: "Privacidad", url: "#" },
-                { text: "Terminos", url: "#" }
+                { text: "Privacidad", url: "Privacidad.html" },
+                { text: "Terminos", url: "terminos.html" }
             ]
         }
     ]
@@ -54,7 +55,7 @@ const RenderContent = ({ claves }) => {
 };
 
 
-export function Footer() {
+function Footer() {
     return (
         <div className="footer-contenedor">
             <div className='margin-footer'>
@@ -85,3 +86,4 @@ export function Footer() {
         </div>
     );
 }
+export default Footer;

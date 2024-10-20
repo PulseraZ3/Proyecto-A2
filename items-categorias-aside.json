@@ -1,0 +1,9 @@
+[
+  {"first":"Comprar Motos","title": "Categorias","url": "#","categoria": "Deportiva","categoria2": "Urbana","categoria3": "Trabajo","categoria4": "Confort"},
+  {"title": "Marca","url": "#","categoria": "Bajaj","categoria2": "Susuki","categoria3": "Senda","categoria4": "Honda"},
+  {"title": "Color","url": "#","categoria": "Rojo","categoria2": "Azul","categoria3": "Negro","categoria4": "Gris"},
+  {"title": "Cilindrada","url": "#","categoria": "125","categoria2": "150","categoria3": "200","categoria4": "225"},
+  {"title": "Tipo de Moto","url": "#","categoria": "Mecanica","categoria2": "Automatica","categoria3": "Electrica","categoria4": "Hibrida"},
+  {"title": "Wifi","url": "#","categoria": "Si"},
+  {"title": "Precio","url": "#","categoria": "1.000 $","categoria2": "2.000 $","categoria3": "10.000 $","categoria4": "5.000 $"}
+]
