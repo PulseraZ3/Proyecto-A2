@@ -1,0 +1,68 @@
+/* Estilos generales para la sección de Trabajos */
+.trabajos-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trabajos-title {
+    font-size: 2.5em;
+    color: #ffc107;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .trabajos-lista {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .trabajo-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .trabajo-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .puesto-titulo {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .puesto-fecha {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .puesto-descripcion,
+  .puesto-requisitos {
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .aplicar-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ffc107;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .aplicar-btn:hover {
+    background-color: #e0a800;
+  }
+  

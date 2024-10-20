@@ -21,8 +21,8 @@ const data = {
             clave: "Compañia",
             content: [
                 { text: "Nosotros", url: "nosotros.html" },
-                { text: "Blog", url: "#" },
-                { text: "Trabajos", url: "#" }
+                { text: "Blog", url: "blog.html" },
+                { text: "Trabajos", url: "trabajo.html" }
             ]
         },
         {
