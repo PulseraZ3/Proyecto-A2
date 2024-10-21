@@ -29,7 +29,7 @@
     text-decoration: underline;
 }
 .items-barra a:last-child{
-    color: red;
+    color: #feca01;
 }
 /*Tod0 lo de arriba es solo barra de historial*/
 /*Para abajo es cardCategorias*/
@@ -60,11 +60,11 @@
     transition: color 0.3s ease;
 }
 .card-items img:hover + h3{
-    color: red;
+    color: #feca01;
 }
 
 .card-items img:hover {
-    border: 2px solid red;
+    border: 2px solid #feca01;
 }
 /*Aside-categorias*/
 
@@ -99,7 +99,7 @@
     border-bottom-right-radius: 15px;
     margin-bottom: 10px;
     margin-top: 0px;
-    border-left:4px solid red;
+    border-left:4px solid #feca01;
     box-shadow: 0px 4px 6px  -1px rgba(0, 0, 0, 0.2);
     color: gray;
     font-size: 0.9em;
@@ -127,7 +127,7 @@
     margin-left: 8px;
     transition: transform 0.3s ease;
     transform: rotate(-90deg);
-    color: red;
+    color: #feca01;
     float: right;
 }
 
@@ -194,7 +194,7 @@ select {
     text-decoration: underline;
 }
 .Barra-historial-navegacion a:last-child{
-    color: red;
+    color: #feca01;
 }
 .contendor-itemscatalogo{
     display: grid;
@@ -235,7 +235,7 @@ select {
     padding-bottom: 10px;
 }
 .marca:hover , .producto:hover{
-    color: red;
+    color: #feca01;
     text-decoration: underline;
 }
 .codigo-prod{
@@ -245,14 +245,14 @@ select {
 }
 .precio-prod{
     font-size: 1.3em;
-    color: red;
+    color: #feca01;
     font-weight: bold;
 }
 .boton-comprar{
     width: 70%;
     display: inline;
     color: white;
-    background: red;
+    background: #feca01;
     border: none;
     border-radius: 15px;
     padding: 7px;
@@ -262,5 +262,5 @@ select {
     cursor: pointer;
 }
 .boton-comprar:hover{
-   background: darkred;
+   background: #ac8900;
 }

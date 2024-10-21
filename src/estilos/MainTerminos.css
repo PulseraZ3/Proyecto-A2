@@ -36,12 +36,12 @@
     color: #555;
   }
   
-  a {
+  .terminos-section a {
     color: #ffc107;
     text-decoration: none;
   }
   
-  a:hover {
+  .terminos-section a:hover {
     text-decoration: underline;
   }
   
